@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 8761
+
+eureka:
+  server:
+    enable-self-preservation: false          # 本地调试环境下关闭自我保护机制
+    eviction-interval-timer-in-ms: 5000      # 清理间隔时间，单位为毫秒
+  instance:
+    hostname: localhost
+    #prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
