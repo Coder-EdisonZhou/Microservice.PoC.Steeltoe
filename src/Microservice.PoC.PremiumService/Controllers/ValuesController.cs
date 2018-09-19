@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microservice.PoC.PremiumService.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Microservice.PoC.PremiumService.Controllers
 {
@@ -10,36 +11,28 @@ namespace Microservice.PoC.PremiumService.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private IClientService _clientService;
+        private ILogger<ValuesController> _logger;
+
+        public ValuesController(IClientService clientService, ILogger<ValuesController> logger)
+        {
+            _clientService = clientService;
+            _logger = logger;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "PremiumService-value1", "PremiumService-value2" };
+            return new string[] { $"Request Time: {DateTime.Now.ToString()}", "PremiumService-value1", "PremiumService-value2" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public async Task<string> Get(int id)
         {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            _logger?.LogInformation($"api/values/{id}");
+            return await _clientService.GetClientName(id);
         }
     }
 }

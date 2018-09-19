@@ -1,8 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Microservice.PoC.AgentService.Controllers
 {
@@ -14,7 +12,7 @@ namespace Microservice.PoC.AgentService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "AgentService-value1", "AgentService-value2" };
+            return new string[] { $"Request Time: {DateTime.Now.ToString()}", "AgentService-value1", "AgentService-value2" };
         }
 
         // GET api/values/5

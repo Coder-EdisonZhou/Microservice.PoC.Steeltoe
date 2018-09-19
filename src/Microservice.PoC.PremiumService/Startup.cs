@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microservice.PoC.PremiumService.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Pivotal.Discovery.Client;
+using Steeltoe.Common.Http.Discovery;
 
 namespace Microservice.PoC.PremiumService
 {
@@ -25,6 +21,10 @@ namespace Microservice.PoC.PremiumService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IClientService, ClientService>();
+            // Add Steeltoe Discovery Client service
+            services.AddDiscoveryClient(Configuration);
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -35,13 +35,11 @@ namespace Microservice.PoC.PremiumService
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseHsts();
-            }
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            // Add Steeltoe Discovery Client service
+            app.UseDiscoveryClient();
         }
     }
 }

@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Tests", "03.Tests", "{454D5147-48EC-480D-A77E-AA158A2820C7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Documents", "01.Documents", "{FC508417-C2FF-45EF-B45D-905B73A570E2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.PoC.AgentService", "Microservice.PoC.AgentService\Microservice.PoC.AgentService.csproj", "{295F4B0C-F366-4289-BA99-624F8295BEB0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.PoC.ClientService", "Microservice.PoC.ClientService\Microservice.PoC.ClientService.csproj", "{C6C9083A-8BD3-4C4D-B8C3-34C5F4C8DDE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.PoC.PremiumService", "Microservice.PoC.PremiumService\Microservice.PoC.PremiumService.csproj", "{00FF095E-6A15-40D6-B767-2236ED1C17CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Steeltoe", "01.Steeltoe", "{809C1802-7A42-4A5D-B9AC-44C7976D651D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
