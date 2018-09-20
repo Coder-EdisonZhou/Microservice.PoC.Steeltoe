@@ -21,7 +21,7 @@ This sample is a microservice project developed by ASP.Net Core with Spring Clou
 
 ## Installation
 
-To use Steeltoe in .Net Core, we can use the below NuGet packages:
+To use Steeltoe in .Net Core, we can use the below NuGet packages:<br/>
 Service Discovery Client
 ```sh
 PM> Install-Package Pivotal.Discovery.ClientCore
