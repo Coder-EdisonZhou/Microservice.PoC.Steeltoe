@@ -5,7 +5,7 @@
       "commandName": "Project",
       "launchBrowser": false,
       "launchUrl": "api/values",
-      "applicationUrl": "https://localhost:8010",
+      "applicationUrl": "http://localhost:8010",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

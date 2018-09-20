@@ -36,7 +36,6 @@ namespace Microservice.PoC.PremiumService
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
             app.UseMvc();
             // Add Steeltoe Discovery Client service
             app.UseDiscoveryClient();

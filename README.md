@@ -16,21 +16,18 @@ Steeltoe enable .NET/.NET Core to use the below components at this moment:
 ## About this sample
 
 [![N|ASP.NET Core](https://www.cnblogs.com/images/cnblogs_com/edisonchou/1260867/o_aspnet-core-logo.PNG)](https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-2.1&tabs=windows)<br/>
-This sample is a microservice project developed by ASP.Net Core with Spring Cloud based on Steeltoe.
+This sample is a microservice project developed by ASP.Net Core with Spring Cloud based on Steeltoe, it integrated with the below Spring Cloud components:
+  - Eureka => All ASP.Net Core microservice projects are registered with Eureka, and they can be discovered by Eureka. More details, you can click here.
 
 ## Installation
 
-To use Steeltoe, we can use the below NuGet packages:
-Steeltoe Common Library
+To use Steeltoe in .Net Core, we can use the below NuGet packages:
+Service Discovery Client
 ```sh
-PM> Install-Package Steeltoe.Common
-```
-Steeltoe Service Discovery Client
-```sh
-PM> Install-Package Steeltoe.Discovery.Client 
+PM> Install-Package Pivotal.Discovery.ClientCore
 ```
 
 
 ## Rerference
 
-Find more : http://edisonchou.cnblogs.com
+[.NET Core微服务之基于Steeltoe使用Spring Cloud Eureka实现服务注册与发现](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_eureka.html)
