@@ -18,6 +18,8 @@ Steeltoe enable .NET/.NET Core to use the below components at this moment:
 [![N|ASP.NET Core](https://www.cnblogs.com/images/cnblogs_com/edisonchou/1260867/o_aspnet-core-logo.PNG)](https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-2.1&tabs=windows)<br/>
 This sample is a microservice project developed by ASP.Net Core with Spring Cloud based on Steeltoe, it integrated with the below Spring Cloud components:
   - Eureka : [Chapter1-ServiceDiscovery](https://github.com/EdisonChou/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
+  - Hystrix :
+  - Config Server :
 
 ## Installation
 

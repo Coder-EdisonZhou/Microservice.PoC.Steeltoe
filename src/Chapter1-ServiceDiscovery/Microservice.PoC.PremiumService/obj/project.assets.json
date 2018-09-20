@@ -11655,11 +11655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Microservice.PoC.PremiumService\\Microservice.PoC.PremiumService.csproj",
+      "projectUniqueName": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Chapter1-ServiceDiscovery\\Microservice.PoC.PremiumService\\Microservice.PoC.PremiumService.csproj",
       "projectName": "Microservice.PoC.PremiumService",
-      "projectPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Microservice.PoC.PremiumService\\Microservice.PoC.PremiumService.csproj",
+      "projectPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Chapter1-ServiceDiscovery\\Microservice.PoC.PremiumService\\Microservice.PoC.PremiumService.csproj",
       "packagesPath": "C:\\Users\\edisonzhou\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Microservice.PoC.PremiumService\\obj\\",
+      "outputPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Chapter1-ServiceDiscovery\\Microservice.PoC.PremiumService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

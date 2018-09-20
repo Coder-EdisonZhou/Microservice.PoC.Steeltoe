@@ -11655,11 +11655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Microservice.PoC.AgentService\\Microservice.PoC.AgentService.csproj",
+      "projectUniqueName": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Chapter1-ServiceDiscovery\\Microservice.PoC.AgentService\\Microservice.PoC.AgentService.csproj",
       "projectName": "Microservice.PoC.AgentService",
-      "projectPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Microservice.PoC.AgentService\\Microservice.PoC.AgentService.csproj",
+      "projectPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Chapter1-ServiceDiscovery\\Microservice.PoC.AgentService\\Microservice.PoC.AgentService.csproj",
       "packagesPath": "C:\\Users\\edisonzhou\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Microservice.PoC.AgentService\\obj\\",
+      "outputPath": "D:\\Git\\GitHub\\Microservice.PoC.Steeltoe\\src\\Chapter1-ServiceDiscovery\\Microservice.PoC.AgentService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

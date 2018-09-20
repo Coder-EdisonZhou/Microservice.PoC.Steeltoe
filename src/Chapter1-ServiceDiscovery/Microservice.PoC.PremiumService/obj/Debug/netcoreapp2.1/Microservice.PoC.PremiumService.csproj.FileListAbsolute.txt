@@ -12,3 +12,17 @@ D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Microservice.PoC.PremiumService\obj\
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.RazorTargetAssemblyInfo.cache
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.dll
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.pdb
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\bin\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.deps.json
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\bin\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.runtimeconfig.json
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\bin\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.runtimeconfig.dev.json
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\bin\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.dll
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\bin\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.pdb
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.csprojResolveAssemblyReference.cache
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.csproj.CoreCompileInputs.cache
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.RazorAssemblyInfo.cache
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.RazorAssemblyInfo.cs
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.AssemblyInfoInputs.cache
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.AssemblyInfo.cs
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.RazorTargetAssemblyInfo.cache
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.dll
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter1-ServiceDiscovery\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.pdb
