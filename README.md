@@ -17,9 +17,10 @@ Steeltoe enable .NET/.NET Core to use the below components at this moment:
 
 [![N|ASP.NET Core](https://www.cnblogs.com/images/cnblogs_com/edisonchou/1260867/o_aspnet-core-logo.PNG)](https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-2.1&tabs=windows)<br/>
 This sample is a microservice project developed by ASP.Net Core with Spring Cloud based on Steeltoe, it integrated with the below Spring Cloud components:
-  - Eureka : [Chapter1-ServiceDiscovery](https://github.com/EdisonChou/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
-  - Hystrix :
+  - Eureka : [Java-EurekaServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/eureka-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
+  - Zuul : [Java-ZuulServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/zuul-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
   - Config Server :
+  - Hystrix :
 
 ## Installation
 
@@ -32,4 +33,5 @@ PM> Install-Package Pivotal.Discovery.ClientCore
 
 ## Rerference
 
-[.NET Core微服务之基于Steeltoe使用Spring Cloud Eureka实现服务注册与发现](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_eureka.html)
+  - [.NET Core微服务之基于Steeltoe使用Spring Cloud Eureka实现服务注册与发现](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_eureka.html)
+  - [.NET Core微服务之基于Steeltoe集成Spring Cloud Zuul实现统一API网关](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_zuul.html)

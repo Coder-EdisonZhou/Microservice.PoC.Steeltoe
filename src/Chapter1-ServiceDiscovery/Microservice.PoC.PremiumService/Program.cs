@@ -19,6 +19,7 @@ namespace Microservice.PoC.PremiumService
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://*:8030")
                 .UseStartup<Startup>();
     }
 }
