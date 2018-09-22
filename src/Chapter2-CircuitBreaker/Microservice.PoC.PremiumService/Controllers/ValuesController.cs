@@ -11,12 +11,12 @@ namespace Microservice.PoC.PremiumService.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private IClientService _clientService;
+        private ClientServiceCommand _clientServiceCommand;
         private ILogger<ValuesController> _logger;
 
-        public ValuesController(IClientService clientService, ILogger<ValuesController> logger)
+        public ValuesController(ClientServiceCommand clientServiceCommand, ILogger<ValuesController> logger)
         {
-            _clientService = clientService;
+            _clientServiceCommand = clientServiceCommand;
             _logger = logger;
         }
 
@@ -32,7 +32,7 @@ namespace Microservice.PoC.PremiumService.Controllers
         public async Task<string> Get(int id)
         {
             _logger?.LogInformation($"api/values/{id}");
-            return await _clientService.GetClientName(id);
+            return await _clientServiceCommand.GetClientName(id);
         }
     }
 }

@@ -1,0 +1,7 @@
+server:
+  port: 5010
+
+spring:
+  application:
+    name: hystrix-dashboard-service
+

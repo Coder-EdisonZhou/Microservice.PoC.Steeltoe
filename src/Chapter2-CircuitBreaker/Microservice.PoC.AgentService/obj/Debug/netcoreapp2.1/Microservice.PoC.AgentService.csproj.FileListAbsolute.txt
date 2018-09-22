@@ -40,3 +40,17 @@ D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.RazorTargetAssemblyInfo.cache
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.dll
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.pdb
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.deps.json
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.runtimeconfig.json
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.runtimeconfig.dev.json
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.dll
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.pdb
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.csprojAssemblyReference.cache
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.csproj.CoreCompileInputs.cache
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.RazorAssemblyInfo.cache
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.RazorAssemblyInfo.cs
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.AssemblyInfoInputs.cache
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.AssemblyInfo.cs
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.RazorTargetAssemblyInfo.cache
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.dll
+E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.pdb
