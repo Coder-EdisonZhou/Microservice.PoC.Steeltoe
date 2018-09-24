@@ -9,7 +9,9 @@ spring:
       server:
         git:
           # 配置Git仓库地址
-          uri: https://github.com/EdisonChou/EDC.SpringCloud.Samples.Config
+          uri: https://github.com/EdisonChou/Microservice.PoC.Steeltoe
+          # 配置搜索目录
+          search-paths: config
           # Git仓库账号（如果需要认证）
           username:
           # Git仓库密码（如果需要认证）
