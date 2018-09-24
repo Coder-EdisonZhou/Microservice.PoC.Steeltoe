@@ -24,30 +24,25 @@ namespace Microservice.PoC.AgentService.Controllers
             Config = config;
         }
 
-        public ConfigServerData ConfigServer()
-        {
-            var data = IConfigServerData.Value;
-            return data;
-        }
-
         [HttpGet]
-        [Route("/reload")]
-        public IActionResult Reload()
+        [Route("/refresh")]
+        public IActionResult Refresh()
         {
             if (Config != null)
             {
                 Config.Reload();
             }
 
-            return Ok("Reload Success!");
+            return Ok("Refresh Config Successfully!");
         }
 
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { $"Profile : {ConfigServer().Info.Profile}",
-                $"Remarks : {ConfigServer().Info.Remarks}" };
+            var config = IConfigServerData.Value;
+            return new string[] { $"Profile : {config.Info.Profile}",
+                $"Remarks : {config.Info.Remarks}" };
         }
 
         // GET api/values/5

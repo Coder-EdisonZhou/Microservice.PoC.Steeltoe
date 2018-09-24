@@ -59,7 +59,6 @@ E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.runtimeconfig.dev.json
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.dll
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\bin\Debug\netcoreapp2.1\Microservice.PoC.AgentService.pdb
-E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.csprojAssemblyReference.cache
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.csproj.CoreCompileInputs.cache
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.RazorAssemblyInfo.cache
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter3-ConfigServer\Microservice.PoC.AgentService\obj\Debug\netcoreapp2.1\Microservice.PoC.AgentService.RazorAssemblyInfo.cs
