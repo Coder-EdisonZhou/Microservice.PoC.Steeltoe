@@ -20,7 +20,7 @@ This sample is a microservice project developed by ASP.Net Core with Spring Clou
   - Eureka : [Java-EurekaServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/eureka-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
   - Zuul : [Java-ZuulServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/zuul-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
   - Hystrix : [Java-Dashboard](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/hystrix-dashboard-service), [Chapter2-CircuitBreaker](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter2-CircuitBreaker)
-  - Config Server : 
+  - Config Server : [Java-ConfigServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/config-service), [Chapter3-ConfigServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter3-ConfigServer)
 
 ## Installation
 
@@ -36,6 +36,10 @@ PM> Install-Package Steeltoe.CircuitBreaker.HystrixCore
 Hystrix Metrics
 ```sh
 PM> Install-Package Steeltoe.CircuitBreaker.Hystrix.MetricsEventsCore
+```
+Config
+```sh
+PM> Install-Package Steeltoe.Extensions.Configuration.ConfigServerCore
 ```
 
 
