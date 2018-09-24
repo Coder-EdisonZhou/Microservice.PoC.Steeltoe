@@ -48,3 +48,4 @@ PM> Install-Package Steeltoe.Extensions.Configuration.ConfigServerCore
   - [.NET Core微服务之基于Steeltoe使用Spring Cloud Eureka实现服务注册与发现](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_eureka.html)
   - [.NET Core微服务之基于Steeltoe集成Spring Cloud Zuul实现统一API网关](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_zuul.html)
   - [.NET Core微服务之基于Steeltoe集成Spring Cloud Hystrix实现熔断保护与可视化监控](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_hystrix.html)
+  - [.NET Core微服务之基于Steeltoe使用Spring Cloud Config统一管理配置](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_config.html)
