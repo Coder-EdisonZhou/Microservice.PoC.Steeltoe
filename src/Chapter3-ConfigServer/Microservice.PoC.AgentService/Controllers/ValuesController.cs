@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using Microservice.PoC.AgentService.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 
 namespace Microservice.PoC.AgentService.Controllers
@@ -8,11 +10,44 @@ namespace Microservice.PoC.AgentService.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private IOptionsSnapshot<ConfigServerData> IConfigServerData { get; set; }
+
+        private IConfigurationRoot Config { get; set; }
+
+        public ValuesController(IConfigurationRoot config, IOptionsSnapshot<ConfigServerData> configServerData)
+        {
+            if (configServerData != null)
+            {
+                IConfigServerData = configServerData;
+            }
+
+            Config = config;
+        }
+
+        public ConfigServerData ConfigServer()
+        {
+            var data = IConfigServerData.Value;
+            return data;
+        }
+
+        [HttpGet]
+        [Route("/reload")]
+        public IActionResult Reload()
+        {
+            if (Config != null)
+            {
+                Config.Reload();
+            }
+
+            return Ok("Reload Success!");
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { $"Request Time: {DateTime.Now.ToString()}", "AgentService-value1", "AgentService-value2" };
+            return new string[] { $"Profile : {ConfigServer().Info.Profile}",
+                $"Remarks : {ConfigServer().Info.Remarks}" };
         }
 
         // GET api/values/5
@@ -20,24 +55,6 @@ namespace Microservice.PoC.AgentService.Controllers
         public ActionResult<string> Get(int id)
         {
             return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

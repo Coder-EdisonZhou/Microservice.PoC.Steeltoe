@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Pivotal.Discovery.ClientCore" Version="2.1.0" />
     <PackageReference Include="Steeltoe.CircuitBreaker.HystrixCore" Version="2.1.0" />
+    <PackageReference Include="Steeltoe.Extensions.Configuration.ConfigServerCore" Version="2.1.0" />
   </ItemGroup>
 
 </Project>

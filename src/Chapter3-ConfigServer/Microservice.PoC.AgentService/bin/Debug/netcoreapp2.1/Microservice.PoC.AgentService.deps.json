@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "92d96ac0f04869fcef4a427c32404468bc326958"
+    "signature": "29248b6f2a5748864e7a2f544c9036d1acc1c02e"
   },
   "compilationOptions": {
     "defines": [
@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Pivotal.Discovery.ClientCore": "2.1.0",
-          "Steeltoe.CircuitBreaker.HystrixCore": "2.1.0"
+          "Steeltoe.CircuitBreaker.HystrixCore": "2.1.0",
+          "Steeltoe.Extensions.Configuration.ConfigServerCore": "2.1.0"
         },
         "runtime": {
           "Microservice.PoC.AgentService.dll": {}
@@ -462,6 +463,36 @@
         },
         "compile": {
           "lib/netstandard2.0/Steeltoe.Extensions.Configuration.CloudFoundryBase.dll": {}
+        }
+      },
+      "Steeltoe.Extensions.Configuration.ConfigServerBase/2.1.0": {
+        "dependencies": {
+          "Steeltoe.Common.Http": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Extensions.Configuration.ConfigServerBase.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Steeltoe.Extensions.Configuration.ConfigServerBase.dll": {}
+        }
+      },
+      "Steeltoe.Extensions.Configuration.ConfigServerCore/2.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.1.1",
+          "Steeltoe.Extensions.Configuration.ConfigServerBase": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Extensions.Configuration.ConfigServerCore.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Steeltoe.Extensions.Configuration.ConfigServerCore.dll": {}
         }
       },
       "System.ComponentModel/4.0.1": {
@@ -3685,6 +3716,20 @@
       "sha512": "sha512-fIRUrpIcVvcUUy+ckcuhnhWU56Nqu1sYLfptZcmHKLKNvPdgZlBOh9C5m0Su5MtqqbDh5P6EjgG/XiP47Ts7Yg==",
       "path": "steeltoe.extensions.configuration.cloudfoundrybase/2.1.0",
       "hashPath": "steeltoe.extensions.configuration.cloudfoundrybase.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Extensions.Configuration.ConfigServerBase/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMShtihMQygDR+paXmhREoCepHC6q+0oari/j6K5QbKkolnIuEGfTiDqRlmo/8zAzCGgL9Y0T/oHoMOc6v5zvg==",
+      "path": "steeltoe.extensions.configuration.configserverbase/2.1.0",
+      "hashPath": "steeltoe.extensions.configuration.configserverbase.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Extensions.Configuration.ConfigServerCore/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IFHXk+SdIlNpKmEyskY4/yWaS47i87CRMRK6Stcc9PkfE0mOvaRwcnmwi4C0+3gB4ocPrr01whP8pBnmrsinQQ==",
+      "path": "steeltoe.extensions.configuration.configservercore/2.1.0",
+      "hashPath": "steeltoe.extensions.configuration.configservercore.2.1.0.nupkg.sha512"
     },
     "System.ComponentModel/4.0.1": {
       "type": "package",
