@@ -19,7 +19,7 @@ Steeltoe enable .NET/.NET Core to use the below components at this moment:
 This sample is a microservice project developed by ASP.Net Core with Spring Cloud based on Steeltoe, it integrated with the below Spring Cloud components:
   - Eureka : [Java-EurekaServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/eureka-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
   - Zuul : [Java-ZuulServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/zuul-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
-  - Hystrix : [Java-Dashboard](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/hystrix-dashboard-service), [Chapter2-CircuitBreaker](https://github.com/EdisonChou/Microservice.PoC.Steeltoe/tree/master/src/Chapter2-CircuitBreaker)
+  - Hystrix : [Java-Dashboard](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/hystrix-dashboard-service), [Chapter2-CircuitBreaker](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter2-CircuitBreaker)
   - Config Server : 
 
 ## Installation
