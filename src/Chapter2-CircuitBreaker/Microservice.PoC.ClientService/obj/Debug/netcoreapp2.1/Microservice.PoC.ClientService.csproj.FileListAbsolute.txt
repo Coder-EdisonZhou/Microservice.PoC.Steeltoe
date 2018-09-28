@@ -39,7 +39,6 @@ D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.RazorTargetAssemblyInfo.cache
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.dll
 D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.pdb
-D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.csprojAssemblyReference.cache
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\bin\Debug\netcoreapp2.1\Microservice.PoC.ClientService.deps.json
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\bin\Debug\netcoreapp2.1\Microservice.PoC.ClientService.runtimeconfig.json
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\bin\Debug\netcoreapp2.1\Microservice.PoC.ClientService.runtimeconfig.dev.json
@@ -54,3 +53,4 @@ E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservi
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.RazorTargetAssemblyInfo.cache
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.dll
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.pdb
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.ClientService\obj\Debug\netcoreapp2.1\Microservice.PoC.ClientService.csprojResolveAssemblyReference.cache

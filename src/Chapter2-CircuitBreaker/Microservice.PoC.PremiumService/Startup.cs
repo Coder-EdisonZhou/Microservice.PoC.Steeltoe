@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Pivotal.Discovery.Client;
 using Steeltoe.CircuitBreaker.Hystrix;
+using Steeltoe.Common.Http.Discovery;
+using System;
 
 namespace Microservice.PoC.PremiumService
 {
@@ -21,9 +23,18 @@ namespace Microservice.PoC.PremiumService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IClientService, ClientService>();
             // Add Steeltoe Discovery Client service
             services.AddDiscoveryClient(Configuration);
-            services.AddSingleton<IClientService, ClientService>();
+            // Add Steeltoe handler to container
+            services.AddTransient<DiscoveryHttpMessageHandler>();
+            // Configure a HttpClient
+            services.AddHttpClient("client-api-values", c =>
+            {
+                c.BaseAddress = new Uri(Configuration["Services:Client-Service:Url"]);
+            })
+            .AddHttpMessageHandler<DiscoveryHttpMessageHandler>()
+            .AddTypedClient<IClientService, ClientService>();
             // Add Steeltoe Hystrix Command
             services.AddHystrixCommand<ClientServiceCommand>("ClientService", Configuration);
 

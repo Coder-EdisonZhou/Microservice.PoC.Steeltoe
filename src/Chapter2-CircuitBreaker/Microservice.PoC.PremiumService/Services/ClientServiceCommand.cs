@@ -20,7 +20,7 @@ namespace Microservice.PoC.PremiumService.Services
 
         public async Task<string> GetClientName(int clientId)
         {
-            _clientId = clientId;
+            _clientId = clientId; // This is not a suggested assignment as it does not consider the multi-thread scenario
             return await ExecuteAsync();
         }
 
@@ -34,7 +34,7 @@ namespace Microservice.PoC.PremiumService.Services
         protected override async Task<string> RunFallbackAsync()
         {
             _logger.LogInformation("RunFallback");
-            return await Task.FromResult<string>("Sorry, the service is unavaliable now. Please try again later.");
+            return await Task.FromResult("Sorry, the service is unavaliable now. Please try again later.");
         }
     }
 }
