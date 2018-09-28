@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Pivotal.Discovery.Client;
 using Steeltoe.Common.Http.Discovery;
+using System;
 
 namespace Microservice.PoC.PremiumService
 {
@@ -24,6 +25,15 @@ namespace Microservice.PoC.PremiumService
             services.AddSingleton<IClientService, ClientService>();
             // Add Steeltoe Discovery Client service
             services.AddDiscoveryClient(Configuration);
+            // Add Steeltoe handler to container
+            services.AddTransient<DiscoveryHttpMessageHandler>();
+            // Configure a HttpClient
+            services.AddHttpClient("client-api-values", c =>
+            {
+                c.BaseAddress = new Uri(Configuration["Services:Client-Service:Url"]);
+            })
+            .AddHttpMessageHandler<DiscoveryHttpMessageHandler>()
+            .AddTypedClient<IClientService, ClientService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

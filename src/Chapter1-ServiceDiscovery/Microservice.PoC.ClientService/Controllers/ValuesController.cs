@@ -19,7 +19,7 @@ namespace Microservice.PoC.ClientService.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Edison Zhou - From 8020";
+            return $"ClientId : {id}, ClientName: Edison Zhou - From 8020";
         }
 
         // POST api/values
