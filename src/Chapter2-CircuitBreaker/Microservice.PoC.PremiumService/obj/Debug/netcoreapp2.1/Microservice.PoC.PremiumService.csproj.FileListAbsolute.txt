@@ -53,4 +53,4 @@ E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservi
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.RazorTargetAssemblyInfo.cache
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.dll
 E:\Projects\Git\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.pdb
-D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.csprojResolveAssemblyReference.cache
+D:\Git\GitHub\Microservice.PoC.Steeltoe\src\Chapter2-CircuitBreaker\Microservice.PoC.PremiumService\obj\Debug\netcoreapp2.1\Microservice.PoC.PremiumService.csprojAssemblyReference.cache
