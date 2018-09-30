@@ -42,6 +42,12 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 
+		<!-- zipkin -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+		</dependency>
+
 		<!-- 热启动，热部署依赖包，为了调试方便，加入此包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

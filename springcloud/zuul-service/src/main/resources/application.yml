@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: zuul-gateway-service
+  zipkin:
+    base-url: http://10.248.63.64:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
 
 eureka:
   client:
