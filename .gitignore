@@ -26,4 +26,3 @@ hs_err_pid*
 
 /src/Chapter3-ConfigServer/Microservice.PoC.AgentService/bin
 /src/Chapter3-ConfigServer/Microservice.PoC.AgentService/obj
-*
