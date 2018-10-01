@@ -42,6 +42,12 @@ Config
 ```sh
 PM> Install-Package Steeltoe.Extensions.Configuration.ConfigServerCore
 ```
+Distributed Tracing
+```sh
+PM> Install-Package Steeltoe.Extensions.Logging.DynamicLogger 
+PM> Install-Package Steeltoe.Management.ExporterCore　　　　 
+PM> Install-Package Steeltoe.Management.TracingCore
+```
 
 
 ## Rerference
