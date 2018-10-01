@@ -21,6 +21,7 @@ This sample is a microservice project developed by ASP.Net Core with Spring Clou
   - Zuul : [Java-ZuulServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/zuul-service), [Chapter1-ServiceDiscovery](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter1-ServiceDiscovery)
   - Hystrix : [Java-Dashboard](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/hystrix-dashboard-service), [Chapter2-CircuitBreaker](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter2-CircuitBreaker)
   - Config Server : [Java-ConfigServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/config-service), [Chapter3-ConfigServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter3-ConfigServer)
+  - Distributed Tracing : [Java-ZipkinServer](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/springcloud/zipkin-service), [Chapter4-DistributedTracing](https://github.com/Manulife-Chengdu/Microservice.PoC.Steeltoe/tree/master/src/Chapter4-ServiceTracing)
 
 ## Installation
 
@@ -49,3 +50,4 @@ PM> Install-Package Steeltoe.Extensions.Configuration.ConfigServerCore
   - [.NET Core微服务之基于Steeltoe集成Spring Cloud Zuul实现统一API网关](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_zuul.html)
   - [.NET Core微服务之基于Steeltoe集成Spring Cloud Hystrix实现熔断保护与可视化监控](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_hystrix.html)
   - [.NET Core微服务之基于Steeltoe使用Spring Cloud Config统一管理配置](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_springcloud_config.html)
+  - [.NET Core微服务之基于Steeltoe使用Zipkin实现分布式追踪](https://www.cnblogs.com/edisonchou/p/dotnet_core_microservice_integrate_with_zipkin.html)
