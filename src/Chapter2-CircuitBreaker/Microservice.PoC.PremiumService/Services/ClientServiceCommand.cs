@@ -20,7 +20,8 @@ namespace Microservice.PoC.PremiumService.Services
 
         public async Task<string> GetClientName(int clientId)
         {
-            _clientId = clientId; // This is not a suggested assignment as it does not consider the multi-thread scenario
+            _clientId = clientId;
+            _logger.LogDebug("ClientId: {0}", _clientId);
             return await ExecuteAsync();
         }
 
