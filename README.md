@@ -25,16 +25,16 @@ This sample is a microservice project developed by ASP.Net Core with Spring Clou
 
 ## Some test captured screens
 
-###Service Discovery :
+### Service Discovery :
 ![N|Eureka](https://img2018.cnblogs.com/blog/381412/201809/381412-20180920173123942-2143310225.png)<br/>
-###API Gateway :<br/>
+### API Gateway :<br/>
 ![N|Zuul](https://img2018.cnblogs.com/blog/381412/201809/381412-20180921163231618-437962436.gif)<br/>
-###Circuit Breaker :<br/>
+### Circuit Breaker :<br/>
 ![N|Hystrix](https://img2018.cnblogs.com/blog/381412/201809/381412-20180922160952015-906146994.png)<br/>
 ![N|Dashboard](https://img2018.cnblogs.com/blog/381412/201809/381412-20180922170910285-1543840080.png)<br/>
-###Config :<br/>
+### Config :<br/>
 ![N|Config](https://img2018.cnblogs.com/blog/381412/201809/381412-20180925002435834-1954906744.png)<br/>
-###Distributed Tracing :<br/>
+### Distributed Tracing :<br/>
 ![N|Zipkin](https://img2018.cnblogs.com/blog/381412/201809/381412-20180930234524872-43266842.png)
 
 ## Installation
